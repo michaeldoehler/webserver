@@ -31,7 +31,7 @@
 		"php" : ">=5.4.0",
 		"rhumsaa/uuid" : "~2.8",
 		"psr/log" : "*",
-		"crunch/fastcgi" : "2.x-dev",
+		"crunch/fastcgi" : "dev-feature-php-7-compatibility",
 		"appserver-io/server" : "~10.0",
 		"appserver-io/http" : "~2.0",
 		"appserver-io/fastcgi" : "~1.0",
@@ -40,6 +40,12 @@
 		"appserver-io-psr/http-message" : "~1.0",
 		"appserver-io/concurrency" : "~0.1"
 	},
+	"repositories":[
+		{
+			"type": "git",
+			"url": "https://github.com/michaeldoehler/fastcgi"
+		}
+	],
 	"require-dev" : {
 		"appserver-io/build" : "~1.0",
 		"codeclimate/php-test-reporter" : "dev-master"
